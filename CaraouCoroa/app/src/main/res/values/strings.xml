@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CaraouCoroa</string>
+    <string name="Logo">Logo</string>
+    <string name="Button_Play">Button Play</string>
 </resources>
