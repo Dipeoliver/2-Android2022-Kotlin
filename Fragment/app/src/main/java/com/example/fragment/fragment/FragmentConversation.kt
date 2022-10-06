@@ -7,10 +7,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.fragment.R
 
-class fragment_home : Fragment() {
+
+class FragmentConversation : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
     }
 
     override fun onCreateView(
@@ -18,7 +20,6 @@ class fragment_home : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        return inflater.inflate(R.layout.fragment_conversation, container, false)
     }
-
 }

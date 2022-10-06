@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient1_backgroun"
-    tools:context=".fragment.fragment_contact">
+    tools:context=".fragment.FragmentContact">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView3"
         android:layout_width="100dp"
         android:layout_height="100dp"

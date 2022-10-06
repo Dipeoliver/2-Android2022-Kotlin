@@ -6,9 +6,9 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.fragment.R
-import com.example.fragment.fragment.fragment_contact
-import com.example.fragment.fragment.fragment_conversation
-import com.example.fragment.fragment.fragment_home
+import com.example.fragment.fragment.FragmentContact
+import com.example.fragment.fragment.FragmentConversation
+import com.example.fragment.fragment.FragmentHome
 
 private lateinit var fragmentHome: Fragment
 private lateinit var fragmentContact: Fragment
@@ -19,16 +19,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val button_contact = findViewById<Button>(R.id.button_contact)
-        button_contact.setOnClickListener(this)
-        val button_conversation = findViewById<Button>(R.id.button_conversation)
-        button_conversation.setOnClickListener(this)
-        val button_home = findViewById<Button>(R.id.button_home)
-        button_home.setOnClickListener(this)
+        val buttonContact = findViewById<Button>(R.id.button_contact)
+        buttonContact.setOnClickListener(this)
+        val buttonConversation = findViewById<Button>(R.id.button_conversation)
+        buttonConversation.setOnClickListener(this)
+        val buttonHome = findViewById<Button>(R.id.button_home)
+        buttonHome.setOnClickListener(this)
 
-        fragmentHome = fragment_home()
-        fragmentContact = fragment_contact()
-        fragmentConversation = fragment_conversation()
+        fragmentHome = FragmentHome()
+        fragmentContact = FragmentContact()
+        fragmentConversation = FragmentConversation()
 
         setFragment(fragmentHome)
 
@@ -40,8 +40,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         transaction.commit()
     }
 
-    override fun onClick(v: View) {
-        when (v.id) {
+    override fun onClick(view: View) {
+        when (view.id) {
             R.id.button_contact -> {
                 setFragment(fragmentContact)
             }

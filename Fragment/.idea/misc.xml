@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/vntdipe/AndroidStudioProjects/Android2022-Kotlin/Fragment/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/vntdipe/AndroidStudioProjects/Android2022-Kotlin/Fragment/app/src/main/res/layout/fragment_contact.xml" value="0.33" />
         <entry key="..\:/Users/vntdipe/AndroidStudioProjects/Fragment/app/src/main/res/drawable-v24/gradient1_backgroun.xml" value="0.3265" />
         <entry key="..\:/Users/vntdipe/AndroidStudioProjects/Fragment/app/src/main/res/drawable-v24/gradient2_backgroun.xml" value="0.3265" />
         <entry key="..\:/Users/vntdipe/AndroidStudioProjects/Fragment/app/src/main/res/drawable-v24/gradient3_backgroun.xml" value="0.117" />
